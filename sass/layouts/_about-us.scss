@@ -2,19 +2,19 @@
   padding-top: 0px;
 }
 
-.about-us-list {
+.about-us__list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
 }
 
-.about-us-item {
+.about-us__item {
   position: relative;
   width: calc(100% / 3 - 30px);
   margin-left: 30px;
 }
 
-.about-us-img-title {
+.about-us__img-title {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -32,9 +32,9 @@
   align-items: center;
 }
 
-.about-us-title,
-.team-title,
-.our-clients-title {
+.about-us__title,
+.team__title,
+.clients__title {
   color: var(--second-text-color);
   font-weight: 700;
   font-size: 36px;
